@@ -51,9 +51,6 @@ $GLOBALS['_PEAR_error_handler_stack']    = array();
 
 @ini_set('track_errors', true);
 
-echo "Travis will not see this\n";
-exit(200);
-
 /**
  * Base class for other PEAR classes.  Provides rudimentary
  * emulation of destructors.

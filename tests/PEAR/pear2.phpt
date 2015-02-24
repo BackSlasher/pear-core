@@ -10,6 +10,8 @@ if (!getenv('PHP_PEAR_RUNTESTS')) {
 <?php
 
 require_once "PEAR.php";
+var_dump(get_included_files());
+exit(2);
 
 class testErrorHandlingStatic {
     function doSetErrorHandlingFunction()
