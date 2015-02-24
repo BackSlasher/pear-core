@@ -179,7 +179,6 @@ class PEAR
      */
     public function PEAR($error_class = null)
     {
-        throw new Exception('booo');
         $this->__construct($error_class);
     }
 
@@ -822,7 +821,6 @@ class PEAR_Error
     function __construct($message = 'unknown error', $code = null,
                         $mode = null, $options = null, $userinfo = null)
     {
-        echo "PEAR::__construct\n";
         if ($mode === null) {
             $mode = PEAR_ERROR_RETURN;
         }
