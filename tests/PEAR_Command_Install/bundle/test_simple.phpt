@@ -53,6 +53,7 @@ $phpunit->assertEquals(array(
   ),
 ), $fakelog->getLog(), 'log messages');
 echo 'tests done';
+var_dump(get_included_files());exit(2);
 ?>
 --CLEAN--
 <?php
