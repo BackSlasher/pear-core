@@ -822,6 +822,7 @@ class PEAR_Error
     function __construct($message = 'unknown error', $code = null,
                         $mode = null, $options = null, $userinfo = null)
     {
+        echo "PEAR::__construct\n";
         if ($mode === null) {
             $mode = PEAR_ERROR_RETURN;
         }

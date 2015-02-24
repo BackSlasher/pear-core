@@ -54,7 +54,6 @@ $phpunit->assertEquals(array(
 ), $fakelog->getLog(), 'log messages');
 echo 'tests done';
 var_dump(get_included_files());
-var_dump(file_get_contents('/home/travis/.phpenv/versions/5.5.21/pear/Archive/Tar.php'));
 exit(2);
 ?>
 --CLEAN--
