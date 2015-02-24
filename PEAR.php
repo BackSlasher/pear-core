@@ -179,6 +179,7 @@ class PEAR
      */
     public function PEAR($error_class = null)
     {
+        throw new Exception('booo');
         $this->__construct($error_class);
     }
 
